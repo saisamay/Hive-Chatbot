@@ -18,7 +18,7 @@ class TestPipelineE2E(unittest.TestCase):
             cls.gold_cases = json.load(f)
             
         cls.threads = {}
-        with open("data/processed/amazon_threads.json", 'r', encoding='utf-8') as f:
+        with open("tests/fixtures/mock_threads.json", 'r', encoding='utf-8') as f:
             threads_list = json.load(f)
             cls.threads = {t['root_tweet_id']: t for t in threads_list}
             
