@@ -11,7 +11,7 @@ from src.core.intent_classifier import IntentClassifier
 
 def load_data():
     print("Loading gold set to exclude...")
-    with open('data/gold_set/labeled_gold_set.json', 'r') as f:
+    with open('data/gold/gold_200.json', 'r') as f:
         gold_ids = {c['root_tweet_id'] for c in json.load(f)}
 
     print("Loading amazon threads...")

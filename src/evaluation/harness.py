@@ -10,7 +10,7 @@ from src.evaluation.metrics import (
 )
 
 class Evaluator:
-    def __init__(self, gold_set_path="data/gold_set/labeled_gold_set.json"):
+    def __init__(self, gold_set_path="data/gold/gold_200_labeled.json"):
         self.gold_set_path = gold_set_path
         with open(self.gold_set_path, 'r', encoding='utf-8') as f:
             self.gold_cases = json.load(f)

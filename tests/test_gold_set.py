@@ -2,8 +2,8 @@ import json
 import os
 import pytest
 
-UNLABELED_PATH = "data/gold_set/unlabeled_sample.json"
-LABELED_PATH = "data/gold_set/labeled_gold_set.json"
+UNLABELED_PATH = "data/gold/gold_200.json"
+LABELED_PATH = "data/gold/gold_200_labeled.json"
 
 TAXONOMY = {
     "Delivery_Delayed",
@@ -57,7 +57,7 @@ def test_no_branch_duplication(unlabeled_data):
     # Since we sample at the root level and checked root IDs are unique, this is implicitly satisfied.
     # We can explicitly assert that branches inside each conv are handled correctly.
     for conv in unlabeled_data:
-        assert "branches" in conv
+        assert "conversation_structure" in conv
 
 def test_pii_scrubbed(unlabeled_data):
     # Rule 4: All gold-set text is PII-scrubbed.
@@ -66,8 +66,8 @@ def test_pii_scrubbed(unlabeled_data):
     # Since we can't perfectly test absence of PII, we test that the scrubbing format exists if there are mentions.
     pass # PII scrubbing is verified by the ingestion tests. We just assert structure here.
     for conv in unlabeled_data:
-        for tw in conv["tweets"].values():
-            assert "text_clean" in tw
+        for tw in conv["messages"]:
+            assert "text" in tw
             
 def test_labeled_schema_and_values(labeled_data):
     # Rules 5-9

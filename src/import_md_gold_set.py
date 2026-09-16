@@ -6,7 +6,7 @@ def normalize_enum(val):
 
 def main():
     md_path = 'data/gold/gold_200_cases_annotated.md'
-    json_path = 'data/gold_set/labeled_gold_set.json'
+    json_path = 'data/gold/gold_200_labeled.json'
     
     with open(md_path, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -21,8 +21,8 @@ def main():
     for case_text in cases:
         # Extract fields using regex
         root_tweet_id = re.search(r'- Root Tweet ID:\s*(.*)', case_text).group(1).strip()
-        primary_intent = re.search(r'-\s*\*\*Primary Intent:\*\*\s*(.*)', case_text).group(1).strip()
-        secondary_intent = re.search(r'-\s*\*\*Secondary Intent:\*\*\s*(.*)', case_text).group(1).strip()
+        primary_intent = re.search(r'-\s*\*\*Primary Intent:\*\*\s*(.*?)(?=$|\n|- \*\*)', case_text).group(1).strip()
+        secondary_intent = re.search(r'-\s*\*\*Secondary Intent:\*\*\s*(.*?)(?=$|\n|- \*\*)', case_text).group(1).strip()
         multi_intent = re.search(r'-\s*\*\*Multi-Intent:\*\*\s*(.*)', case_text).group(1).strip()
         trust_tier = re.search(r'-\s*\*\*Trust Tier:\*\*\s*(.*)', case_text).group(1).strip()
         frustration = re.search(r'-\s*\*\*Frustration Trajectory:\*\*\s*(.*)', case_text).group(1).strip()
@@ -32,7 +32,7 @@ def main():
         must_cover = re.search(r'-\s*\*\*Reference Resolution / Must-Cover Facts:\*\*\s*(.*)', case_text).group(1).strip()
         
         sec_intents = []
-        if secondary_intent and secondary_intent != '-':
+        if secondary_intent and secondary_intent not in ['-', 'N/A', 'None']:
             sec_intents.append(secondary_intent)
             
         is_multi = (multi_intent.lower() == 'yes')

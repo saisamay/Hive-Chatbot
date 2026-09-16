@@ -4,7 +4,7 @@ from src.auto_label_gold_set import analyze_conversation
 
 def inspect_data():
     print("Loading labeled gold set...")
-    with open('data/gold_set/labeled_gold_set.json', 'r') as f:
+    with open('data/gold/gold_200_labeled.json', 'r') as f:
         gold_cases = json.load(f)
         gold_ids = {c['root_tweet_id'] for c in gold_cases}
 

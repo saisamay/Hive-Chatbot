@@ -6,7 +6,7 @@ from src.core.intent_classifier import IntentClassifier
 
 def main():
     print("Loading Golden Set and threads...")
-    evaluator = Evaluator("data/gold_set/labeled_gold_set.json")
+    evaluator = Evaluator("data/gold/gold_200_labeled.json")
     
     with open("data/processed/amazon_threads.json", "r") as f:
         threads = json.load(f)

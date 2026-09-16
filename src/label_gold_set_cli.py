@@ -52,7 +52,7 @@ def display_conversation(conv):
 
 def main():
     unlabeled_path = "data/gold_set/unlabeled_sample.json"
-    labeled_path = "data/gold_set/labeled_gold_set.json"
+    labeled_path = "data/gold/gold_200_labeled.json"
     
     if not os.path.exists(unlabeled_path):
         # Allow the script to function if there's no unlabeled data but labeled exists

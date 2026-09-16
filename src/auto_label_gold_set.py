@@ -144,7 +144,7 @@ def analyze_conversation(conv):
 
 def main():
     unlabeled_path = "data/gold_set/unlabeled_sample.json"
-    labeled_path = "data/gold_set/labeled_gold_set.json"
+    labeled_path = "data/gold/gold_200_labeled.json"
     
     with open(unlabeled_path, 'r') as f:
         unlabeled = json.load(f)

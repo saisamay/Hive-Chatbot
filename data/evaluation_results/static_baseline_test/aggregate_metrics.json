@@ -1,18 +1,13 @@
 {
   "metadata": {
     "run_name": "static_baseline_test",
-    "timestamp": "2026-09-16T01:51:07.462928",
+    "timestamp": "2026-09-16T21:26:00.099394",
     "cases_evaluated": 200
   },
   "intent": {
     "accuracy": 0.28,
     "macro_f1": 0.03977272727272728,
     "per_intent": {
-      "Package_Missing_Or_Stolen": {
-        "precision": 0,
-        "recall": 0.0,
-        "f1": 0
-      },
       "Order_Cancellation": {
         "precision": 0,
         "recall": 0.0,
@@ -23,12 +18,7 @@
         "recall": 0.0,
         "f1": 0
       },
-      "Refund_Or_Return_Status": {
-        "precision": 0,
-        "recall": 0.0,
-        "f1": 0
-      },
-      "Digital_Content_Or_Streaming": {
+      "UNKNOWN": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
@@ -38,17 +28,12 @@
         "recall": 0.0,
         "f1": 0
       },
-      "UNKNOWN": {
+      "Device_Technical_Issue": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
       },
-      "Delivery_Delayed": {
-        "precision": 0.28,
-        "recall": 1.0,
-        "f1": 0.43750000000000006
-      },
-      "Device_Technical_Issue": {
+      "Package_Missing_Or_Stolen": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
@@ -58,71 +43,32 @@
         "recall": 0.0,
         "f1": 0
       },
+      "Digital_Content_Or_Streaming": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
       "Billing_Or_Prime_Charge": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
+      },
+      "Refund_Or_Return_Status": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Delivery_Delayed": {
+        "precision": 0.28,
+        "recall": 1.0,
+        "f1": 0.43750000000000006
       }
     },
     "multi_intent_accuracy": 0.97,
     "secondary_intent_overlap": 0.0,
     "cases_missing_secondary": [
-      "1266439",
-      "584581",
-      "2284556",
       "179831",
-      "1746075",
-      "856608",
-      "1666219",
-      "2950764",
-      "923714",
-      "2893225",
-      "2962725",
-      "2192318",
-      "2964094",
-      "2382473",
-      "1031092",
-      "427029",
-      "1773282",
-      "2981620",
-      "474282",
-      "2712541",
-      "74317",
-      "1228670",
-      "420070",
-      "259357",
-      "162031",
-      "2787697",
-      "2153996",
-      "235117",
-      "2378931",
-      "231500",
-      "320613",
-      "464283",
-      "2285502",
-      "1388844",
-      "445417",
-      "2519257",
-      "2868464",
-      "1740776",
-      "2119303",
-      "258835",
-      "1553211",
-      "58747",
-      "339918",
-      "1379037",
-      "2665842",
-      "1342518",
-      "2933528",
-      "490612",
-      "2663187",
-      "1375301",
-      "2347790",
-      "827938",
-      "608119",
-      "421532",
-      "2807314",
-      "2673420"
+      "259357"
     ]
   },
   "trust_gate": {

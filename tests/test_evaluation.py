@@ -8,7 +8,7 @@ class TestEvaluationHarness(unittest.TestCase):
     
     @classmethod
     def setUpClass(cls):
-        cls.gold_set_path = "data/gold_set/labeled_gold_set.json"
+        cls.gold_set_path = "data/gold/gold_200_labeled.json"
         # Only run tests if the gold set actually exists
         if os.path.exists(cls.gold_set_path):
             cls.evaluator = Evaluator(cls.gold_set_path)

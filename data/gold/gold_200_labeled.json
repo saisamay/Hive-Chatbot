@@ -2,9 +2,7 @@
   {
     "root_tweet_id": "1266439",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -16,9 +14,7 @@
   {
     "root_tweet_id": "912741",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -30,9 +26,7 @@
   {
     "root_tweet_id": "2560163",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -44,9 +38,7 @@
   {
     "root_tweet_id": "584581",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -58,9 +50,7 @@
   {
     "root_tweet_id": "2284556",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -86,9 +76,7 @@
   {
     "root_tweet_id": "2828059",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -100,9 +88,7 @@
   {
     "root_tweet_id": "1746075",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -114,9 +100,7 @@
   {
     "root_tweet_id": "1666087",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -128,9 +112,7 @@
   {
     "root_tweet_id": "856608",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -142,9 +124,7 @@
   {
     "root_tweet_id": "18206",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -156,9 +136,7 @@
   {
     "root_tweet_id": "1666219",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -170,9 +148,7 @@
   {
     "root_tweet_id": "2950764",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -184,9 +160,7 @@
   {
     "root_tweet_id": "923714",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -198,9 +172,7 @@
   {
     "root_tweet_id": "2802400",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "UNKNOWN",
@@ -212,9 +184,7 @@
   {
     "root_tweet_id": "2555145",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -226,9 +196,7 @@
   {
     "root_tweet_id": "806302",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -240,9 +208,7 @@
   {
     "root_tweet_id": "2893225",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -254,9 +220,7 @@
   {
     "root_tweet_id": "86075",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -268,9 +232,7 @@
   {
     "root_tweet_id": "1464292",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -282,9 +244,7 @@
   {
     "root_tweet_id": "2124935",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -296,9 +256,7 @@
   {
     "root_tweet_id": "2962725",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -310,9 +268,7 @@
   {
     "root_tweet_id": "230000",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -324,9 +280,7 @@
   {
     "root_tweet_id": "419386",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -338,9 +292,7 @@
   {
     "root_tweet_id": "1315529",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -352,9 +304,7 @@
   {
     "root_tweet_id": "2459119",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -366,9 +316,7 @@
   {
     "root_tweet_id": "1323510",
     "primary_intent": "Item_Damaged_Or_Defective",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -380,9 +328,7 @@
   {
     "root_tweet_id": "2320259",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -394,9 +340,7 @@
   {
     "root_tweet_id": "2874996",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -408,9 +352,7 @@
   {
     "root_tweet_id": "1632477",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -422,9 +364,7 @@
   {
     "root_tweet_id": "2311791",
     "primary_intent": "Fraud_Or_Fake_Product",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -436,9 +376,7 @@
   {
     "root_tweet_id": "1667254",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -464,9 +402,7 @@
   {
     "root_tweet_id": "2198899",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -478,9 +414,7 @@
   {
     "root_tweet_id": "2192318",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -492,9 +426,7 @@
   {
     "root_tweet_id": "2964094",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -506,9 +438,7 @@
   {
     "root_tweet_id": "2067244",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -520,9 +450,7 @@
   {
     "root_tweet_id": "540863",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -534,9 +462,7 @@
   {
     "root_tweet_id": "1545713",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -562,9 +488,7 @@
   {
     "root_tweet_id": "1042352",
     "primary_intent": "Fraud_Or_Fake_Product",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -576,9 +500,7 @@
   {
     "root_tweet_id": "2602251",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -590,9 +512,7 @@
   {
     "root_tweet_id": "650126",
     "primary_intent": "Fraud_Or_Fake_Product",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "UNKNOWN",
@@ -604,9 +524,7 @@
   {
     "root_tweet_id": "207760",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -618,9 +536,7 @@
   {
     "root_tweet_id": "2382473",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -632,9 +548,7 @@
   {
     "root_tweet_id": "2720045",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -658,9 +572,7 @@
   {
     "root_tweet_id": "206160",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -672,9 +584,7 @@
   {
     "root_tweet_id": "619300",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -686,9 +596,7 @@
   {
     "root_tweet_id": "2439648",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -700,9 +608,7 @@
   {
     "root_tweet_id": "1031092",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -714,9 +620,7 @@
   {
     "root_tweet_id": "2558502",
     "primary_intent": "Fraud_Or_Fake_Product",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -742,9 +646,7 @@
   {
     "root_tweet_id": "472284",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -756,9 +658,7 @@
   {
     "root_tweet_id": "1207240",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -770,9 +670,7 @@
   {
     "root_tweet_id": "1905637",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -784,9 +682,7 @@
   {
     "root_tweet_id": "83532",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -798,9 +694,7 @@
   {
     "root_tweet_id": "427029",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -824,9 +718,7 @@
   {
     "root_tweet_id": "354463",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -838,9 +730,7 @@
   {
     "root_tweet_id": "2338170",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -852,9 +742,7 @@
   {
     "root_tweet_id": "1204899",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -866,9 +754,7 @@
   {
     "root_tweet_id": "64037",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -880,9 +766,7 @@
   {
     "root_tweet_id": "254636",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -894,9 +778,7 @@
   {
     "root_tweet_id": "455498",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -908,9 +790,7 @@
   {
     "root_tweet_id": "1773282",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -922,9 +802,7 @@
   {
     "root_tweet_id": "2252933",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "UNKNOWN",
@@ -936,9 +814,7 @@
   {
     "root_tweet_id": "1850212",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -950,9 +826,7 @@
   {
     "root_tweet_id": "2981620",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -964,9 +838,7 @@
   {
     "root_tweet_id": "2736214",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -990,9 +862,7 @@
   {
     "root_tweet_id": "1102449",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1004,9 +874,7 @@
   {
     "root_tweet_id": "2706722",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1018,9 +886,7 @@
   {
     "root_tweet_id": "2530210",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1032,9 +898,7 @@
   {
     "root_tweet_id": "474282",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1046,9 +910,7 @@
   {
     "root_tweet_id": "1892143",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1074,9 +936,7 @@
   {
     "root_tweet_id": "2712541",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1088,9 +948,7 @@
   {
     "root_tweet_id": "2382551",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1102,9 +960,7 @@
   {
     "root_tweet_id": "74317",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1116,9 +972,7 @@
   {
     "root_tweet_id": "557031",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1130,9 +984,7 @@
   {
     "root_tweet_id": "1885928",
     "primary_intent": "Item_Damaged_Or_Defective",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1144,9 +996,7 @@
   {
     "root_tweet_id": "1301248",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1158,9 +1008,7 @@
   {
     "root_tweet_id": "1080329",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1172,9 +1020,7 @@
   {
     "root_tweet_id": "2678068",
     "primary_intent": "Fraud_Or_Fake_Product",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1186,9 +1032,7 @@
   {
     "root_tweet_id": "979606",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1200,9 +1044,7 @@
   {
     "root_tweet_id": "1228670",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1214,9 +1056,7 @@
   {
     "root_tweet_id": "2371368",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -1228,9 +1068,7 @@
   {
     "root_tweet_id": "485323",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1242,9 +1080,7 @@
   {
     "root_tweet_id": "420070",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1256,9 +1092,7 @@
   {
     "root_tweet_id": "2762715",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1284,9 +1118,7 @@
   {
     "root_tweet_id": "1118029",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1298,9 +1130,7 @@
   {
     "root_tweet_id": "881039",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -1312,9 +1142,7 @@
   {
     "root_tweet_id": "1642244",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1326,9 +1154,7 @@
   {
     "root_tweet_id": "2192489",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1340,9 +1166,7 @@
   {
     "root_tweet_id": "162031",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1354,9 +1178,7 @@
   {
     "root_tweet_id": "2787697",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1368,9 +1190,7 @@
   {
     "root_tweet_id": "53492",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1382,9 +1202,7 @@
   {
     "root_tweet_id": "1263983",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1396,9 +1214,7 @@
   {
     "root_tweet_id": "2153996",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1410,9 +1226,7 @@
   {
     "root_tweet_id": "1519123",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1424,9 +1238,7 @@
   {
     "root_tweet_id": "740975",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1438,9 +1250,7 @@
   {
     "root_tweet_id": "777246",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1452,9 +1262,7 @@
   {
     "root_tweet_id": "138901",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -1466,9 +1274,7 @@
   {
     "root_tweet_id": "235117",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1480,9 +1286,7 @@
   {
     "root_tweet_id": "2378931",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -1494,9 +1298,7 @@
   {
     "root_tweet_id": "2885710",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -1508,9 +1310,7 @@
   {
     "root_tweet_id": "231500",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1522,9 +1322,7 @@
   {
     "root_tweet_id": "2896027",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1536,9 +1334,7 @@
   {
     "root_tweet_id": "1211138",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1550,9 +1346,7 @@
   {
     "root_tweet_id": "787135",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1564,9 +1358,7 @@
   {
     "root_tweet_id": "2356848",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -1578,9 +1370,7 @@
   {
     "root_tweet_id": "115903",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1592,9 +1382,7 @@
   {
     "root_tweet_id": "1097252",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1606,9 +1394,7 @@
   {
     "root_tweet_id": "2828804",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1620,9 +1406,7 @@
   {
     "root_tweet_id": "1911069",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1634,9 +1418,7 @@
   {
     "root_tweet_id": "564953",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1648,9 +1430,7 @@
   {
     "root_tweet_id": "2663076",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1662,9 +1442,7 @@
   {
     "root_tweet_id": "825502",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -1676,9 +1454,7 @@
   {
     "root_tweet_id": "1776406",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1690,9 +1466,7 @@
   {
     "root_tweet_id": "1144989",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1704,9 +1478,7 @@
   {
     "root_tweet_id": "320613",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "DECREASING",
@@ -1718,9 +1490,7 @@
   {
     "root_tweet_id": "1936493",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -1732,9 +1502,7 @@
   {
     "root_tweet_id": "1721018",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1746,9 +1514,7 @@
   {
     "root_tweet_id": "970611",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1760,9 +1526,7 @@
   {
     "root_tweet_id": "2885683",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1774,9 +1538,7 @@
   {
     "root_tweet_id": "389679",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1788,9 +1550,7 @@
   {
     "root_tweet_id": "464283",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1802,9 +1562,7 @@
   {
     "root_tweet_id": "1633177",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1816,9 +1574,7 @@
   {
     "root_tweet_id": "210364",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1830,9 +1586,7 @@
   {
     "root_tweet_id": "275820",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1844,9 +1598,7 @@
   {
     "root_tweet_id": "462479",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1858,9 +1610,7 @@
   {
     "root_tweet_id": "54364",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -1872,9 +1622,7 @@
   {
     "root_tweet_id": "2285502",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1886,9 +1634,7 @@
   {
     "root_tweet_id": "1135907",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1900,9 +1646,7 @@
   {
     "root_tweet_id": "1388844",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1914,9 +1658,7 @@
   {
     "root_tweet_id": "445417",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1928,9 +1670,7 @@
   {
     "root_tweet_id": "2519257",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1942,9 +1682,7 @@
   {
     "root_tweet_id": "802363",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -1956,9 +1694,7 @@
   {
     "root_tweet_id": "2868464",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -1970,9 +1706,7 @@
   {
     "root_tweet_id": "1740776",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1984,9 +1718,7 @@
   {
     "root_tweet_id": "2119303",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -1998,9 +1730,7 @@
   {
     "root_tweet_id": "2111100",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2012,9 +1742,7 @@
   {
     "root_tweet_id": "258835",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "DECREASING",
@@ -2026,9 +1754,7 @@
   {
     "root_tweet_id": "612716",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "STABLE",
@@ -2040,9 +1766,7 @@
   {
     "root_tweet_id": "1553211",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2054,9 +1778,7 @@
   {
     "root_tweet_id": "58747",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2068,9 +1790,7 @@
   {
     "root_tweet_id": "339918",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2082,9 +1802,7 @@
   {
     "root_tweet_id": "1379037",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2096,9 +1814,7 @@
   {
     "root_tweet_id": "2665842",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2110,9 +1826,7 @@
   {
     "root_tweet_id": "91335",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2124,9 +1838,7 @@
   {
     "root_tweet_id": "2467630",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -2138,9 +1850,7 @@
   {
     "root_tweet_id": "2280812",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2152,9 +1862,7 @@
   {
     "root_tweet_id": "1159300",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2166,9 +1874,7 @@
   {
     "root_tweet_id": "1605622",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2180,9 +1886,7 @@
   {
     "root_tweet_id": "2184549",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2194,9 +1898,7 @@
   {
     "root_tweet_id": "554602",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2208,9 +1910,7 @@
   {
     "root_tweet_id": "1342518",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2222,9 +1922,7 @@
   {
     "root_tweet_id": "2933528",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -2236,9 +1934,7 @@
   {
     "root_tweet_id": "1058037",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -2250,9 +1946,7 @@
   {
     "root_tweet_id": "2200679",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2264,9 +1958,7 @@
   {
     "root_tweet_id": "975746",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2278,9 +1970,7 @@
   {
     "root_tweet_id": "594575",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -2292,9 +1982,7 @@
   {
     "root_tweet_id": "2636844",
     "primary_intent": "Item_Damaged_Or_Defective",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "DECREASING",
@@ -2306,9 +1994,7 @@
   {
     "root_tweet_id": "1206850",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2320,9 +2006,7 @@
   {
     "root_tweet_id": "2856564",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -2334,9 +2018,7 @@
   {
     "root_tweet_id": "2266823",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2348,9 +2030,7 @@
   {
     "root_tweet_id": "490612",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2362,9 +2042,7 @@
   {
     "root_tweet_id": "2663187",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "DECREASING",
@@ -2376,9 +2054,7 @@
   {
     "root_tweet_id": "2299308",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2390,9 +2066,7 @@
   {
     "root_tweet_id": "511710",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2404,9 +2078,7 @@
   {
     "root_tweet_id": "2305792",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2418,9 +2090,7 @@
   {
     "root_tweet_id": "1375301",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2432,9 +2102,7 @@
   {
     "root_tweet_id": "2347790",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2446,9 +2114,7 @@
   {
     "root_tweet_id": "2450592",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2460,9 +2126,7 @@
   {
     "root_tweet_id": "827938",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2474,9 +2138,7 @@
   {
     "root_tweet_id": "608119",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2488,9 +2150,7 @@
   {
     "root_tweet_id": "421532",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2502,9 +2162,7 @@
   {
     "root_tweet_id": "1824718",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2516,9 +2174,7 @@
   {
     "root_tweet_id": "361023",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2530,9 +2186,7 @@
   {
     "root_tweet_id": "351666",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2544,9 +2198,7 @@
   {
     "root_tweet_id": "503396",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2558,9 +2210,7 @@
   {
     "root_tweet_id": "825510",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2572,9 +2222,7 @@
   {
     "root_tweet_id": "1265748",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2586,9 +2234,7 @@
   {
     "root_tweet_id": "2807314",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2600,9 +2246,7 @@
   {
     "root_tweet_id": "1095874",
     "primary_intent": "Item_Damaged_Or_Defective",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2614,9 +2258,7 @@
   {
     "root_tweet_id": "2380854",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2628,9 +2270,7 @@
   {
     "root_tweet_id": "420626",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2642,9 +2282,7 @@
   {
     "root_tweet_id": "1745022",
     "primary_intent": "Package_Missing_Or_Stolen",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2656,9 +2294,7 @@
   {
     "root_tweet_id": "2310501",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "STABLE",
@@ -2670,9 +2306,7 @@
   {
     "root_tweet_id": "2901032",
     "primary_intent": "Account_Compromised",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2684,9 +2318,7 @@
   {
     "root_tweet_id": "2673420",
     "primary_intent": "Delivery_Delayed",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2698,9 +2330,7 @@
   {
     "root_tweet_id": "993192",
     "primary_intent": "Digital_Content_Or_Streaming",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "INCREASING",
@@ -2712,9 +2342,7 @@
   {
     "root_tweet_id": "467436",
     "primary_intent": "Refund_Or_Return_Status",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "DECREASING",
@@ -2726,9 +2354,7 @@
   {
     "root_tweet_id": "1678008",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2740,9 +2366,7 @@
   {
     "root_tweet_id": "2291244",
     "primary_intent": "Billing_Or_Prime_Charge",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "DEEP_ANALYSIS",
     "frustration_trajectory": "STABLE",
@@ -2754,9 +2378,7 @@
   {
     "root_tweet_id": "205033",
     "primary_intent": "Device_Technical_Issue",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "AUTO_HANDLE",
     "frustration_trajectory": "UNKNOWN",
@@ -2768,9 +2390,7 @@
   {
     "root_tweet_id": "407435",
     "primary_intent": "Order_Cancellation",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",
@@ -2782,9 +2402,7 @@
   {
     "root_tweet_id": "1246851",
     "primary_intent": "UNKNOWN",
-    "secondary_intents": [
-      "- **Multi-Intent:** No"
-    ],
+    "secondary_intents": [],
     "is_multi_intent": false,
     "trust_tier": "HUMAN_ESCALATION",
     "frustration_trajectory": "INCREASING",

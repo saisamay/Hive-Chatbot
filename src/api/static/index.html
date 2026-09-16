@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Support AI - Track A</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;650;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-title">Amazon Support AI</span>
+                <span class="brand-subtitle">Next-Gen Customer Support</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#">How it works</a>
+                <a href="#">Evaluation</a>
+                <a href="#">About</a>
+            </div>
+            
+            <div class="nav-actions">
+                <span class="badge-track">Track A · MVP</span>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-layout">
+        <section class="hero-editorial">
+            <h1>Faster Answers.<br><span class="text-gradient">Safer Support.</span></h1>
+            <p class="hero-desc">Experience a grounded AI support architecture. Designed with robust trust guardrails, transparent decision-making, and empathetic responses.</p>
+            
+            <div class="capability-highlights">
+                <div class="highlight">
+                    <span class="icon">🧠</span>
+                    <div>
+                        <strong>Understands intent</strong>
+                        <p>Uses conversation context and intent classification to identify the customer's issue.</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="icon">📚</span>
+                    <div>
+                        <strong>Finds relevant historical solutions</strong>
+                        <p>Retrieves playbooks from past successful interactions.</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="icon">🛡️</span>
+                    <div>
+                        <strong>Safety first</strong>
+                        <p>Screens conversations for safety and escalation signals.</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <span class="icon">🔒</span>
+                    <div>
+                        <strong>Honest about capabilities</strong>
+                        <p>Never claims unverified actions are completed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chat-section-wrapper" id="scene">
+            <!-- Satellite Floating Cards -->
+            <div class="floating-card intent-card" data-depth="0.2">
+                <div class="fc-label">Intent detected</div>
+                <div class="fc-value" id="fc-intent">Awaiting...</div>
+            </div>
+            <div class="floating-card trust-card" data-depth="0.6">
+                <div class="fc-label">Trust decision</div>
+                <div class="fc-value badge" id="fc-trust">Awaiting...</div>
+            </div>
+            <div class="floating-card capability-card" data-depth="0.4">
+                <div class="fc-label">Capability check</div>
+                <div class="fc-value" id="fc-capability">UNKNOWN</div>
+            </div>
+            <div class="floating-card evidence-card" data-depth="0.8">
+                <div class="fc-label">Grounded evidence</div>
+                <div class="fc-value" id="fc-evidence">0 playbooks</div>
+            </div>
+
+            <!-- Main Chat Panel -->
+            <div class="chat-section" data-depth="0.1">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="header-avatar-group">
+                        <div class="avatar">
+                            <span class="avatar-icon">✨</span>
+                            <span class="online-indicator"></span>
+                        </div>
+                        <div class="header-titles">
+                            <h2>AI Support Assistant</h2>
+                            <span class="subtitle">Track A · Grounded customer support</span>
+                        </div>
+                    </div>
+                    <div id="demo-badge" class="demo-badge hidden">
+                        Demo mode · AI generation unavailable
+                    </div>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message assistant-message">
+                        <div class="message-content">
+                            Hi there! I'm the Amazon Support AI. How can I help you today?
+                        </div>
+                        <div class="message-timestamp">Just now</div>
+                    </div>
+                </div>
+                
+                <div class="suggestion-chips" id="suggestion-chips">
+                    <button class="chip" onclick="sendSuggestion('Where is my order?')">Where is my order?</button>
+                    <button class="chip" onclick="sendSuggestion('Where is my refund?')">Where is my refund?</button>
+                    <button class="chip" onclick="sendSuggestion('I want to cancel my order')">I want to cancel my order</button>
+                    <button class="chip" onclick="sendSuggestion('Talk to a human')">Talk to a human</button>
+                </div>
+
+                <div class="chat-input-area">
+                    <input type="text" id="chat-input" placeholder="Type your message here..." autocomplete="off">
+                    <button id="send-button" onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="disclaimer">
+        Track A MVP — research/demo environment. No live Amazon account or backend actions are performed.
+    </footer>
+
+    <!-- Template for Decision Panel -->
+    <template id="decision-panel-template">
+        <div class="decision-panel">
+            <div class="decision-header" onclick="togglePanel(this)">
+                <span>⚙️ Decision Details</span>
+                <span class="toggle-icon">▼</span>
+            </div>
+            <div class="decision-content">
+                <div class="decision-grid">
+                    <div class="decision-item">
+                        <span class="label">Intent</span>
+                        <span class="value intent-val"></span>
+                    </div>
+                    <div class="decision-item">
+                        <span class="label">Trust Decision</span>
+                        <span class="badge trust-val"></span>
+                    </div>
+                    <div class="decision-item">
+                        <span class="label">Capability</span>
+                        <span class="value capability-val">UNKNOWN</span>
+                    </div>
+                    <div class="decision-item">
+                        <span class="label">Safety</span>
+                        <span class="value safety-val"></span>
+                    </div>
+                    <div class="decision-item">
+                        <span class="label">Provider</span>
+                        <span class="value provider-val"></span>
+                    </div>
+                </div>
+                
+                <div class="decision-accordions">
+                    <details class="d-accordion">
+                        <summary>Evidence</summary>
+                        <div class="d-acc-content evidence-list"></div>
+                    </details>
+                    <details class="d-accordion">
+                        <summary>Why this decision</summary>
+                        <div class="d-acc-content">Trust Gate evaluated intent confidence, safety rules, and retrieval quality to determine the escalation tier.</div>
+                    </details>
+                    <details class="d-accordion">
+                        <summary>Capability check</summary>
+                        <div class="d-acc-content">Track A enforces UNKNOWN capability dynamically unless grounded by secure backend verification.</div>
+                    </details>
+                    <details class="d-accordion">
+                        <summary>Escalation reasoning</summary>
+                        <div class="d-acc-content">Checked against safety triggers, human-request explicit intents, and multi-turn frustration persistence.</div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="/app.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@ from src.evaluation.baselines import TrivialIntentBaseline
 
 def main():
     print("Running baseline against 200 Golden Set...")
-    evaluator = Evaluator("data/gold_set/labeled_gold_set.json")
+    evaluator = Evaluator("data/gold/gold_200_labeled.json")
     
     print("Loading full amazon threads...")
     with open("data/processed/amazon_threads.json", "r") as f:
