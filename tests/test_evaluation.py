@@ -12,7 +12,7 @@ class TestEvaluationHarness(unittest.TestCase):
         # Only run tests if the gold set actually exists
         if os.path.exists(cls.gold_set_path):
             cls.evaluator = Evaluator(cls.gold_set_path)
-            with open("data/processed/canonical_threads.json", "r") as f:
+            with open("tests/fixtures/mock_threads.json", "r") as f:
                 cls.threads = json.load(f)
         else:
             cls.evaluator = None
