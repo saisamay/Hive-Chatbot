@@ -1,29 +1,24 @@
 {
   "metadata": {
     "run_name": "static_baseline_test",
-    "timestamp": "2026-09-16T21:26:00.099394",
+    "timestamp": "2026-09-17T00:31:41.148383",
     "cases_evaluated": 200
   },
   "intent": {
     "accuracy": 0.28,
     "macro_f1": 0.03977272727272728,
     "per_intent": {
-      "Order_Cancellation": {
+      "Refund_Or_Return_Status": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
       },
-      "Item_Damaged_Or_Defective": {
+      "Billing_Or_Prime_Charge": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
       },
-      "UNKNOWN": {
-        "precision": 0,
-        "recall": 0.0,
-        "f1": 0
-      },
-      "Fraud_Or_Fake_Product": {
+      "Account_Compromised": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
@@ -38,7 +33,7 @@
         "recall": 0.0,
         "f1": 0
       },
-      "Account_Compromised": {
+      "UNKNOWN": {
         "precision": 0,
         "recall": 0.0,
         "f1": 0
@@ -48,20 +43,25 @@
         "recall": 0.0,
         "f1": 0
       },
-      "Billing_Or_Prime_Charge": {
-        "precision": 0,
-        "recall": 0.0,
-        "f1": 0
-      },
-      "Refund_Or_Return_Status": {
-        "precision": 0,
-        "recall": 0.0,
-        "f1": 0
-      },
       "Delivery_Delayed": {
         "precision": 0.28,
         "recall": 1.0,
         "f1": 0.43750000000000006
+      },
+      "Item_Damaged_Or_Defective": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Order_Cancellation": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Fraud_Or_Fake_Product": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
       }
     },
     "multi_intent_accuracy": 0.97,
