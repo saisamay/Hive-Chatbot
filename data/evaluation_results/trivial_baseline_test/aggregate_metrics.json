@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "run_name": "trivial_baseline_test",
+    "timestamp": "2026-09-16T01:51:07.459591",
+    "cases_evaluated": 200
+  },
+  "intent": {
+    "accuracy": 0.28,
+    "macro_f1": 0.03977272727272728,
+    "per_intent": {
+      "Package_Missing_Or_Stolen": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Order_Cancellation": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Item_Damaged_Or_Defective": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Refund_Or_Return_Status": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Digital_Content_Or_Streaming": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Fraud_Or_Fake_Product": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "UNKNOWN": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Delivery_Delayed": {
+        "precision": 0.28,
+        "recall": 1.0,
+        "f1": 0.43750000000000006
+      },
+      "Device_Technical_Issue": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Account_Compromised": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "Billing_Or_Prime_Charge": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      }
+    },
+    "multi_intent_accuracy": 0.97,
+    "secondary_intent_overlap": 0.0,
+    "cases_missing_secondary": [
+      "1266439",
+      "584581",
+      "2284556",
+      "179831",
+      "1746075",
+      "856608",
+      "1666219",
+      "2950764",
+      "923714",
+      "2893225",
+      "2962725",
+      "2192318",
+      "2964094",
+      "2382473",
+      "1031092",
+      "427029",
+      "1773282",
+      "2981620",
+      "474282",
+      "2712541",
+      "74317",
+      "1228670",
+      "420070",
+      "259357",
+      "162031",
+      "2787697",
+      "2153996",
+      "235117",
+      "2378931",
+      "231500",
+      "320613",
+      "464283",
+      "2285502",
+      "1388844",
+      "445417",
+      "2519257",
+      "2868464",
+      "1740776",
+      "2119303",
+      "258835",
+      "1553211",
+      "58747",
+      "339918",
+      "1379037",
+      "2665842",
+      "1342518",
+      "2933528",
+      "490612",
+      "2663187",
+      "1375301",
+      "2347790",
+      "827938",
+      "608119",
+      "421532",
+      "2807314",
+      "2673420"
+    ]
+  },
+  "trust_gate": {
+    "confusion_matrix": {
+      "AUTO_HANDLE": {
+        "AUTO_HANDLE": 0,
+        "DEEP_ANALYSIS": 0,
+        "HUMAN_ESCALATION": 22
+      },
+      "DEEP_ANALYSIS": {
+        "AUTO_HANDLE": 0,
+        "DEEP_ANALYSIS": 0,
+        "HUMAN_ESCALATION": 78
+      },
+      "HUMAN_ESCALATION": {
+        "AUTO_HANDLE": 0,
+        "DEEP_ANALYSIS": 0,
+        "HUMAN_ESCALATION": 100
+      }
+    },
+    "total_cost": 122,
+    "average_cost": 0.61
+  },
+  "safety": {
+    "recall": 0.0,
+    "precision": 0,
+    "false_negatives": 17,
+    "dangerous_misses": [
+      "2555145",
+      "650126",
+      "2558502",
+      "254636",
+      "2706722",
+      "1892143",
+      "979606",
+      "115903",
+      "2663076",
+      "462479",
+      "1135907",
+      "802363",
+      "612716",
+      "1159300",
+      "2450592",
+      "1745022",
+      "2901032"
+    ]
+  },
+  "resolution": {
+    "accuracy": 0.835,
+    "confusion_matrix": {
+      "RESOLVED": {
+        "RESOLVED": 0,
+        "UNRESOLVED": 19,
+        "UNKNOWN": 0
+      },
+      "UNRESOLVED": {
+        "RESOLVED": 0,
+        "UNRESOLVED": 167,
+        "UNKNOWN": 0
+      },
+      "UNKNOWN": {
+        "RESOLVED": 0,
+        "UNRESOLVED": 14,
+        "UNKNOWN": 0
+      }
+    }
+  },
+  "capability": {
+    "accuracy": 0.865
+  }
+}

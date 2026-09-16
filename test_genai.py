@@ -1,0 +1,7 @@
+from google import genai
+try:
+    client = genai.Client()
+    response = client.models.generate_content(model='gemini-2.5-flash', contents='Hello')
+    print("SUCCESS:", response.text)
+except Exception as e:
+    print("FAILED:", e)

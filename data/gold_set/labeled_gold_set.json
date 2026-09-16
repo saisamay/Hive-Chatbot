@@ -1,0 +1,2796 @@
+[
+  {
+    "root_tweet_id": "1266439",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current carrier status and a revised delivery estimate for the bed frame order. Do not state the package is in transit or give a date without tracking evidence."
+  },
+  {
+    "root_tweet_id": "912741",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the promotional cashback was actually issued and the real status of the internal escalation. Do not repeat 'escalated to internal teams' as if it were a status."
+  },
+  {
+    "root_tweet_id": "2560163",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish who cancelled the pre-order and why the customer was told stock might arrive 'maybe tonight'. Confirm any refund owed; do not claim the Prime fee entitles or does not entitle her to compensation without checking."
+  },
+  {
+    "root_tweet_id": "584581",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the estimated delivery date and current carrier scan for the Black Friday book order. Do not promise arrival without the tracking state."
+  },
+  {
+    "root_tweet_id": "2284556",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Confirm the promised delivery date on the order and explain that two-day shipping counts transit in business days. Do not assert the order is late unless the promised date has passed."
+  },
+  {
+    "root_tweet_id": "179831",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "Order_Cancellation"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the status of the items delayed since 25 July and separately why the cancel option is unavailable on those orders. Do not assume the charge is refundable without checking the order state."
+  },
+  {
+    "root_tweet_id": "2828059",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "No support issue is raised; the customer is commenting on Cyber Monday spending. Nothing needs to be established or claimed."
+  },
+  {
+    "root_tweet_id": "1746075",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current tracking state and delivery date for the Intelcom shipment now on day six of a one-day promise. Do not treat the DM as proof the issue has been actioned."
+  },
+  {
+    "root_tweet_id": "1666087",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the phone was actually handed to Canada Post or never left the fulfilment centre, since Amazon and the carrier give contradictory accounts. Do not repeat either party's claim as fact."
+  },
+  {
+    "root_tweet_id": "856608",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the promised date shown at checkout versus the date now on the order, since the customer reports it moved after payment. Do not state the order is on time without that comparison."
+  },
+  {
+    "root_tweet_id": "18206",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish which cashback amount was actually committed for the Echo Plus order, since the customer was told INR 1500 and later INR 449. Do not restate either figure as correct without the promotion record."
+  },
+  {
+    "root_tweet_id": "1666219",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the shipment was marked unreachable when a full address is on the order, and the current delivery state. Do not send the customer back to a link he has already reported as non-functional without confirming it works."
+  },
+  {
+    "root_tweet_id": "2950764",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current status of the order due 28 November and whether any delay notification was actually sent. Do not claim an email was sent if no record exists."
+  },
+  {
+    "root_tweet_id": "923714",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current status of the Prime orders that missed their 14 October date. Do not ask what went wrong when the customer has already stated the items were not delivered."
+  },
+  {
+    "root_tweet_id": "2802400",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "No specific problem has been stated; one targeted clarifying question is needed to establish what the customer's issue actually is. Do not assume a delivery or refund problem."
+  },
+  {
+    "root_tweet_id": "2555145",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the returned item was received and why the refund has not been issued, and separately preserve the call recording alleging abusive language by an escalation-team employee. Do not dismiss or confirm the misconduct allegation without review."
+  },
+  {
+    "root_tweet_id": "806302",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the order disappeared from the customer's order history and whether a return can still be initiated against it. Do not claim an account-specialist email was sent when the customer says none arrived."
+  },
+  {
+    "root_tweet_id": "2893225",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the delivery window applied to the work address and why the previous attempt was made after the site closed. Do not tell the customer to wait for the delivery to fail before acting."
+  },
+  {
+    "root_tweet_id": "86075",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the payment is failing on this order when other orders on the same card succeed, and whether the sale price will stand within the payment window. Do not repeat that the bank declined it, which the customer has already disproved."
+  },
+  {
+    "root_tweet_id": "1464292",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "The item arrived intact; the complaint is about oversized packaging. Route packaging feedback and do not treat this as a damage or delivery claim."
+  },
+  {
+    "root_tweet_id": "2124935",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer is praising a chat interaction that already went well. Acknowledge the feedback; there is nothing outstanding to verify or claim."
+  },
+  {
+    "root_tweet_id": "2962725",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why a delivery was marked as attempted while the customer was home, and whether the shipment can still be routed today. Do not repeat a delivery commitment that has already been broken twice."
+  },
+  {
+    "root_tweet_id": "230000",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the order status after roughly 20 days and whether a refund can be issued now, which is the outcome the customer has asked for. Do not send another 24-48 hour holding reply."
+  },
+  {
+    "root_tweet_id": "419386",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why a deduction was applied to the refund and whether the loss was caused by the delivery agent. Do not confirm the deduction is correct without the order and return record."
+  },
+  {
+    "root_tweet_id": "1315529",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the breakdown between the refund amount shown in the customer's screenshot and the 179 actually received. Do not explain the difference as fees or deductions without the refund record."
+  },
+  {
+    "root_tweet_id": "2459119",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account was placed on hold and what the customer must do to have it restored. Do not repeat that an email was sent when the customer says it contains no remedy."
+  },
+  {
+    "root_tweet_id": "1323510",
+    "primary_intent": "Item_Damaged_Or_Defective",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that both toners arrived with broken seals on the order and whether replacement or refund applies. Do not assert a quality check was performed on these specific units."
+  },
+  {
+    "root_tweet_id": "2320259",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether a carrier investigation was actually opened and whether a refund or replacement was authorised after the item was declared lost or stolen. Do not ask the customer to check with neighbours again."
+  },
+  {
+    "root_tweet_id": "2874996",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "No support issue is raised; this is a friendly exchange about an Amazon Music recommendation. Nothing needs to be established."
+  },
+  {
+    "root_tweet_id": "1632477",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current location of the second shipment routed to an Amazon locker by AMZL and whether the manager escalation is still open. Do not tell the customer it will be on a truck today without a scan confirming it."
+  },
+  {
+    "root_tweet_id": "2311791",
+    "primary_intent": "Fraud_Or_Fake_Product",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that an RX100 was supplied in RX100V packaging and what remedies beyond a plain return are available. Do not repeat that nothing can be done without that check."
+  },
+  {
+    "root_tweet_id": "1667254",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current refund status on the returned headphones roughly 20 days after the return. Do not confirm the refund is processing without the record."
+  },
+  {
+    "root_tweet_id": "608117",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "Order_Cancellation"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "The sign-in problem is reported fixed by the customer; establish separately why the order was cancelled and whether reordering is safe. Do not treat the account issue as evidence of what happened to the order."
+  },
+  {
+    "root_tweet_id": "2198899",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Explain how to cancel a Prime membership activated by accident and what refund applies if benefits were unused. Do not claim the cancellation has been completed."
+  },
+  {
+    "root_tweet_id": "2192318",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why an in-stock Prime order placed first has not shipped while a later order for the same item did. Do not ask the customer to prove the comparison with someone else's order number."
+  },
+  {
+    "root_tweet_id": "2964094",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the delivery state of the paid Prime items, including the two left at a bar while the customer's wife was home. Do not refer him back to customer service, which he has already contacted without result."
+  },
+  {
+    "root_tweet_id": "2067244",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the cancellation completed while the order was out for delivery and whether any charge or authorisation hold remains. Do not explain the charge as a bank hold without checking the order state."
+  },
+  {
+    "root_tweet_id": "540863",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the customer's actual Amazon Pay recharge cashback query and arrange the callback he has asked for. Do not send another self-service link he has already reported as unusable."
+  },
+  {
+    "root_tweet_id": "1545713",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the callback form will not accept a full phone number and route the customer to Seller Support. Do not treat reaching general customer service as proof the seller issue was addressed."
+  },
+  {
+    "root_tweet_id": "2399213",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "Device_Technical_Issue"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why a charge was taken on an order with two cancellation confirmations, leaving the customer overdrawn, and separately why the app's cancel-order page loads blank. Do not attribute the charge to the seller without checking."
+  },
+  {
+    "root_tweet_id": "1042352",
+    "primary_intent": "Fraud_Or_Fake_Product",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that a used Nova trimmer was delivered against an order for a Philips trimmer and what replacement or refund applies. Do not treat the promised callback as evidence that action was taken."
+  },
+  {
+    "root_tweet_id": "2602251",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the cancellation was registered before despatch and whether the shipment can still be stopped or refused. Do not tell him to reply by email when he has asked repeatedly to be called."
+  },
+  {
+    "root_tweet_id": "650126",
+    "primary_intent": "Fraud_Or_Fake_Product",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Confirm that Amazon and its recruitment partners never charge candidates a fee, and capture the advertisement and message for fraud investigation. Do not advise on whether to pay under any circumstance."
+  },
+  {
+    "root_tweet_id": "207760",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the listing cannot leave draft mode when no required fields are highlighted, and re-establish contact after the dropped call. Do not send him back to the same form that already failed."
+  },
+  {
+    "root_tweet_id": "2382473",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms the package was delivered; what remains is carrier feedback about weekend attempts at an office address. Do not reopen the delivery as unresolved or promise carrier process changes."
+  },
+  {
+    "root_tweet_id": "2720045",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account is locked and what is needed to restore it. Do not state that an Account Specialist has been in touch when the customer says no one has contacted her."
+  },
+  {
+    "root_tweet_id": "2825704",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "The cash load itself has been credited by the customer's account; establish whether the 20% cashback on the INR 2,640 load is owed and when it will pay. Do not ask him to restate details he has already given three times."
+  },
+  {
+    "root_tweet_id": "206160",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the reason for the account lock and the restoration path. Do not assert that an Account Specialist email exists without confirming it."
+  },
+  {
+    "root_tweet_id": "619300",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Explain how to cancel or return an accidentally ordered Kindle title. Do not claim the cancellation was processed on Amazon's side."
+  },
+  {
+    "root_tweet_id": "2439648",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "This is a three-year-old feature request for Arabic support on Kindle, not a fault. Route it as product feedback and do not promise that support will be added."
+  },
+  {
+    "root_tweet_id": "1031092",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the shipment has sat at the Noida facility since 17 October and give a firm delivery date. Do not restate that order details cannot be viewed here without offering a route that can view them."
+  },
+  {
+    "root_tweet_id": "2558502",
+    "primary_intent": "Fraud_Or_Fake_Product",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish who redeemed the gift card and whether the promised account credit was actually applied. Do not describe the case as resolved, which the supervisor claimed and the customer disputes."
+  },
+  {
+    "root_tweet_id": "1439092",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "UNKNOWN"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the correct author attribution and category for the listed title, and separately the status of the ticket to merge the Amazon account with the author page. Do not confirm catalogue changes that have not been verified."
+  },
+  {
+    "root_tweet_id": "472284",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why cards from several banks fail on this account while the same cards clear elsewhere, and why orders are being cancelled as a result. Do not repeat that this is a bank problem, which the customer's bank has already ruled out on a joint call."
+  },
+  {
+    "root_tweet_id": "1207240",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the collected item was received back and whether the INR 129 refund has been issued. Do not quote the 5-10 day window as if it were the current status of this return."
+  },
+  {
+    "root_tweet_id": "1905637",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "The underlying problem has not been stated in the thread; establish what it is and arrange the callback requested. Do not assume a delivery or refund issue."
+  },
+  {
+    "root_tweet_id": "83532",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the order was cancelled without contacting the account holder, whether the payment was taken, and whether the original price can be honoured. Do not treat the Account Specialist email as the manager callback that was arranged."
+  },
+  {
+    "root_tweet_id": "427029",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current status of the order that missed its 7 October delivery date. Do not restate the privacy notice in place of a status."
+  },
+  {
+    "root_tweet_id": "857811",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the refund can be paid to the customer's bank account rather than held as Amazon Pay balance, and what the current refund state is. Do not tell him to call when he says he can no longer get through."
+  },
+  {
+    "root_tweet_id": "354463",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Establish whether the return has actually been set up, since the customer believes it is ready but no confirmation is shown. Do not record the case as closed on the basis of the customer's 'I think'."
+  },
+  {
+    "root_tweet_id": "2338170",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what verification documents are required to unlock the account and whether a non-fax channel is acceptable. Do not suggest fax alternatives the customer has already ruled out without confirming they are accepted."
+  },
+  {
+    "root_tweet_id": "1204899",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the pickup agent refused to collect the return and arrange a workable return method. Do not tell the customer the return is available if the pickup has already been refused."
+  },
+  {
+    "root_tweet_id": "64037",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the status of the account-closure request and stop the repeated early-morning calls. Do not route him back to the same support channel that generated the calls without stopping them first."
+  },
+  {
+    "root_tweet_id": "254636",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the sign-in email was changed without the customer's authorisation and secure the account. Do not ask him to log in when he has already said he cannot."
+  },
+  {
+    "root_tweet_id": "455498",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the customer's outstanding pre-sales questions about which Echo devices to buy and arrange the manager callback requested. Do not send him back to the help pages he has already been through with six agents."
+  },
+  {
+    "root_tweet_id": "1773282",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the actual cause of the delay on the Xbox One X order, since Royal Mail denies any local issue, and what compensation is appropriate against an item over GBP 400. Do not repeat the carrier explanation without evidence."
+  },
+  {
+    "root_tweet_id": "2252933",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "The customer is locked out and asks for a phone number to call, which was provided. Do not claim the account has been restored."
+  },
+  {
+    "root_tweet_id": "1850212",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the original issue is, since it is never stated in the thread, and deliver the manager callback the customer was promised. Do not ask her to re-explain before the promised callback is arranged."
+  },
+  {
+    "root_tweet_id": "2981620",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "UNKNOWN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the status of the guaranteed delivery to the work address and review the courier's offer to hand the package over privately. Do not treat the private handoff as a normal delivery option."
+  },
+  {
+    "root_tweet_id": "2736214",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the wrong item was sent twice and whether the original price can be honoured on a replacement instead of a refund-and-rebuy. Do not present refund-and-reorder as the only option without that check."
+  },
+  {
+    "root_tweet_id": "2898930",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the PC order was cancelled without notice and whether the original price can be honoured. Do not treat the Prime fee as a separate dispute unless the customer raises it as one."
+  },
+  {
+    "root_tweet_id": "1102449",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the delivery scan and location details for the order marked delivered but not received, and what remedy applies. Do not ask him to check the front door again."
+  },
+  {
+    "root_tweet_id": "2706722",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Capture the reported dangerous driving by a Prime-branded van, registration SH66 NDN, for carrier investigation, and provide the phone contact requested. Do not close this as a delivery query."
+  },
+  {
+    "root_tweet_id": "2530210",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish who cancelled the order after a supervisor committed to delivering it, and whether a delivery attempt was actually made. Do not repeat the attempted-delivery claim the customer disputes."
+  },
+  {
+    "root_tweet_id": "474282",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether a redelivery to the customer's own address can be arranged after a single attempt, rather than a pickup. Do not present collection as the only remaining option without checking."
+  },
+  {
+    "root_tweet_id": "1892143",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that an Amazon account was opened on the customer's email address without his authorisation and what can be done to close or secure it. Do not treat this as a general service complaint."
+  },
+  {
+    "root_tweet_id": "320599",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "Delivery_Delayed"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account is locked after more than 24 hours with no response, and separately the status of the order promised for 10/11. Do not ask her to complete the same form a third time."
+  },
+  {
+    "root_tweet_id": "2712541",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the grocery delivery never arrived on the promised day and what options beyond a refund exist for a same-day redelivery. Do not treat the refund already offered as closing the issue."
+  },
+  {
+    "root_tweet_id": "2382551",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "The underlying issue is never described in the thread; establish what it is and take human ownership after a previous call ended in a disconnection. Do not send another scripted contact link."
+  },
+  {
+    "root_tweet_id": "74317",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms the package eventually arrived at 20:30; establish whether the next-day guarantee was missed and what goodwill applies. Do not reopen it as an undelivered order."
+  },
+  {
+    "root_tweet_id": "557031",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why direct debit is no longer selectable at checkout when valid bank details are stored on the account. Do not assume the payment method was declined when the customer says it cannot be chosen at all."
+  },
+  {
+    "root_tweet_id": "1885928",
+    "primary_intent": "Item_Damaged_Or_Defective",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The refund for the water-damaged book has been issued by the customer's own account; establish whether goodwill is appropriate after a month's wait. Do not re-send generic damage-policy links he has already rejected as unhelpful."
+  },
+  {
+    "root_tweet_id": "1301248",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why four payment revisions are not registering on the order. Do not tell the customer the payment was never submitted without checking the attempts."
+  },
+  {
+    "root_tweet_id": "1080329",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that subtitles fail on downloaded titles while working during streaming, across the named titles, and log it as an app defect. Do not treat a reinstall as a resolution, since the customer already tried it."
+  },
+  {
+    "root_tweet_id": "2678068",
+    "primary_intent": "Fraud_Or_Fake_Product",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that a used item from a different brand was delivered against this order and process the return and refund. Do not treat this as an ordinary change-of-mind return."
+  },
+  {
+    "root_tweet_id": "979606",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish how the account was accessed twice in three weeks and what security measures can be applied. Do not give generic password advice without reviewing the account's sign-in activity."
+  },
+  {
+    "root_tweet_id": "1228670",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the dates actually shown on the customer's orders against the shipping speed paid for, since his screenshots show a longer window than the policy implies. Do not repeat the transit-time explanation without checking his specific dates."
+  },
+  {
+    "root_tweet_id": "2371368",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish where the promotional credit for the returned broken gift was applied, since the customer is unsure whether it went to the gift buyer. Do not quote standard refund windows as if they confirm this refund has been issued."
+  },
+  {
+    "root_tweet_id": "485323",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the cookware set arrived incomplete and whether an exchange is possible without a repurchase at a USD 500 higher price. Do not repeat that the set must be returned and rebought without checking exchange options on an Amazon-sold item."
+  },
+  {
+    "root_tweet_id": "420070",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why multiple orders were returned to the seller with no delivery attempt recorded against this address. Do not repeat that no action is possible without the form when he has already called many times."
+  },
+  {
+    "root_tweet_id": "2762715",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the gift-message step will not advance on a supported browser after refresh and log the checkout defect. Do not suggest another browser without confirming the step works elsewhere."
+  },
+  {
+    "root_tweet_id": "259357",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "Item_Damaged_Or_Defective"
+    ],
+    "is_multi_intent": true,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the order was recorded as refused by the customer when no delivery was attempted, and separately the condition of the half-order that did arrive damaged. Do not repeat the refusal record as fact."
+  },
+  {
+    "root_tweet_id": "1118029",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the delivery address can still be changed on a shipment already dispatched, or whether a redirect or refusal is the only option. Do not promise an address change before checking the shipment state."
+  },
+  {
+    "root_tweet_id": "881039",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "The complaint is about oversized packaging, not a damaged or missing item. Route it as packaging feedback and do not open an order investigation."
+  },
+  {
+    "root_tweet_id": "1642244",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why authorisation charges appeared on long-saved cards for this customer and his brother. Do not restate the generic GBP 1 authorisation explanation, which he has already questioned."
+  },
+  {
+    "root_tweet_id": "2192489",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why Twitch Prime linking returns an error on an active Prime account after browser and device troubleshooting. Do not re-ask about eligibility, which the customer has already confirmed."
+  },
+  {
+    "root_tweet_id": "162031",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the real delivery position for an order still showing out for delivery at a business address after closing. Do not treat the out-for-delivery status as evidence it will arrive today."
+  },
+  {
+    "root_tweet_id": "2787697",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether two delivery attempts were genuinely made, since no one knocked, and arrange redelivery of the birthday gift. Do not repeat the attempted-delivery record as fact."
+  },
+  {
+    "root_tweet_id": "53492",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the birthday order due 31 October was cancelled and whether it can be reinstated or reordered at the original price. Do not assume the customer cancelled it."
+  },
+  {
+    "root_tweet_id": "1263983",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the item was sold above the listed MRP and why the promised 12-hour response never came. Do not repeat another assurance that the team is working on it."
+  },
+  {
+    "root_tweet_id": "2153996",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether a delivery was genuinely attempted, given the customer states there is a doorbell and no access restriction, and arrange redelivery. Do not repeat the 'could not gain security access' note as fact."
+  },
+  {
+    "root_tweet_id": "1519123",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the Prime membership still shows as suspended after the payment method was updated and a USD 11.65 charge was taken. Do not promise the weekly game content before membership status is confirmed."
+  },
+  {
+    "root_tweet_id": "740975",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why GBP 300 has left the customer's account with no tablet delivered and whether a second payment is genuinely required. Do not tell him to pay again before the first payment and the refund are verified."
+  },
+  {
+    "root_tweet_id": "777246",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account is locked again immediately after verification was completed and released the previous day, and whether the balance is accessible. Do not ask him to repeat the same verification without explaining why it recurred."
+  },
+  {
+    "root_tweet_id": "138901",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Explain that the order was cancelled because of a per-customer quantity limit on the product. Do not assert an offer or promotion outcome that has not been checked on his account."
+  },
+  {
+    "root_tweet_id": "235117",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current status of the late Prime order and a revised date. Do not answer a delivery question with only a privacy reminder."
+  },
+  {
+    "root_tweet_id": "2378931",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the parcel has sat in the carrier's local warehouse for 12 days past a 3 November date and what alternatives exist. Do not treat the carrier handover as delivery progress."
+  },
+  {
+    "root_tweet_id": "2885710",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Explain how Amazon Music Unlimited downloads transfer when switching phones. Do not claim the library will migrate automatically."
+  },
+  {
+    "root_tweet_id": "231500",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why an attempted delivery was recorded when CCTV shows no attempt, and deliver the supervisor call the customer was promised. Do not ask for details he has already submitted twice."
+  },
+  {
+    "root_tweet_id": "2896027",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the Amazon Music problem is and connect the customer to a person, which is what he asked for. Do not send another self-service link he has said is not helping."
+  },
+  {
+    "root_tweet_id": "1211138",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the order can still be stopped or must be refused at delivery, and the refund route once returned. Do not confirm a cancellation that has not been processed."
+  },
+  {
+    "root_tweet_id": "787135",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the delivery evidence for an order marked delivered but not received, and whether stock can be sourced rather than only refunded. Do not treat the refund offer as closing a hard-to-find item."
+  },
+  {
+    "root_tweet_id": "2356848",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Point the customer to the application routes for the Amazon-branded credit cards. Do not state eligibility or approval outcomes."
+  },
+  {
+    "root_tweet_id": "115903",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the delivery records behind repeated parcels scanned as delivered or attempted and never received, totalling around GBP 200, and route this to Amazon Logistics as a loss investigation. Do not repeat the courier's assurance that delivery was made."
+  },
+  {
+    "root_tweet_id": "1097252",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the specialist team is actually doing on this case after four days and give the customer a substantive answer. Do not send another 'please wait' reply."
+  },
+  {
+    "root_tweet_id": "2828804",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the cashback on this Amazon Pay transaction is due and when it will be credited, 17 days on. Do not assume the customer is ineligible without the promotion record."
+  },
+  {
+    "root_tweet_id": "1911069",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the refund position on the third-party seller order paid by debit card and whether an A-to-Z claim applies. Do not ask her to wait for a call that has already failed to happen."
+  },
+  {
+    "root_tweet_id": "564953",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the problem with the software purchase is and provide the phone number requested. Do not answer a request for a number with another navigation link."
+  },
+  {
+    "root_tweet_id": "2663076",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that a USD 11.97 Prime charge was taken on the customer's card by an account that is not hers, and stop and refund it. Do not send her back to check her own membership pages, which she has already done."
+  },
+  {
+    "root_tweet_id": "825502",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Give the release information that is publicly known for the series and episodes asked about. Do not state that a series has or has not been renewed without an announcement."
+  },
+  {
+    "root_tweet_id": "1776406",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the parcel was delivered to a different apartment complex, as the delivery photo shows, and honour the resolution the chat agent promised. Do not ask the customer to name the courier again."
+  },
+  {
+    "root_tweet_id": "1144989",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Establish the refund position on the debit-card order and use the phone route the customer asked for. Do not claim the refund has been issued."
+  },
+  {
+    "root_tweet_id": "320613",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer states the issue is now resolved; the open point was a book recorded against a delivery that did not reach him while he was in hospital. Do not reopen it or treat the tracking record as proof of delivery."
+  },
+  {
+    "root_tweet_id": "1936493",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms the issue was resolved by a named agent after a long effort; what remains is feedback about earlier rude handling. Do not reopen the case or infer what the original problem was."
+  },
+  {
+    "root_tweet_id": "1721018",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the account specialist team requires to unlock the account and confirm whether the customer has that email. Do not assert the email was received."
+  },
+  {
+    "root_tweet_id": "970611",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the refund position and give a specific timeline, which is the one thing the customer has asked for. Do not tell her to reply to the email again, which she has already done more than once."
+  },
+  {
+    "root_tweet_id": "2885683",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the seller account has been blocked for two weeks despite documentation being supplied, and the position of the INR 120,000 held. Do not ask him to restate information he says he has already given many times."
+  },
+  {
+    "root_tweet_id": "389679",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "UNKNOWN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account-closure flow fails after two attempts and complete the closure through a verified route. Do not send the same closure link a third time."
+  },
+  {
+    "root_tweet_id": "464283",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "UNKNOWN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the shipment was moved to delayed status minutes after the customer spoke to the driver, and review the logistics rep's remark that the driver is behaving irregularly on the route. Do not treat the delayed status as a normal carrier update."
+  },
+  {
+    "root_tweet_id": "1633177",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the customer needs to buy under a GST-registered firm and receive a GSTIN tax invoice, and return the call requested. Do not answer a business-account question with only a privacy reminder."
+  },
+  {
+    "root_tweet_id": "210364",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the status of the discontinued seller account and the appeal already filed, and give a working contact route for a user whose seller privileges are blocked. Do not send login-gated seller links to someone who cannot use them."
+  },
+  {
+    "root_tweet_id": "275820",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the KDP account holding around 1,600 titles was terminated and route the case to KDP with a callback. Do not send links that require access to the terminated account."
+  },
+  {
+    "root_tweet_id": "462479",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the unauthorised USD 700 gift-card orders on the compromised account and the exposure of the linked payment details, and secure both. Do not treat the account hold as the end of the matter while funds are missing."
+  },
+  {
+    "root_tweet_id": "54364",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the order can be cancelled and refunded after a third failed delivery this month, including a previous parcel recorded as delivered but never received. Do not offer another delivery date before checking the failures."
+  },
+  {
+    "root_tweet_id": "2285502",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the real carrier status of the order and whether a supervisor stated the item was on a truck when the carrier's lines were closed. Do not repeat that status without verifying it."
+  },
+  {
+    "root_tweet_id": "1135907",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the unauthorised activity on the hacked account and the money at stake, and make the callback she is waiting for. Do not send another details form before the account is secured."
+  },
+  {
+    "root_tweet_id": "1388844",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the pattern behind repeatedly delayed Prime orders on this account and whether cancel-and-reorder was genuinely the only option offered. Do not repeat that advice without checking."
+  },
+  {
+    "root_tweet_id": "445417",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the position of the undelivered orders and review why two callbacks came from agents who had not read the case history. Do not ask him to explain the problem again."
+  },
+  {
+    "root_tweet_id": "2519257",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the position of the deliveries mishandled over three days by Amazon Logistics, which is the carrier here. Do not ask the customer to identify the carrier when he has already said it is AMZL."
+  },
+  {
+    "root_tweet_id": "802363",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the account email was changed without the customer's authorisation and secure the account before acting on his request to close it. Do not process a closure while control of the account is in doubt."
+  },
+  {
+    "root_tweet_id": "2868464",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the current tracking position and revised date for the missing order. Do not attribute the delay to the Black Friday period without checking this shipment."
+  },
+  {
+    "root_tweet_id": "1740776",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the replacement order a supervisor committed to was ever placed, and why no notes exist on the account. Do not treat the USD 20 goodwill as closing a package that is still two days away."
+  },
+  {
+    "root_tweet_id": "2119303",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why Amazon Logistics deliveries keep failing at a verified address and arrange for the courier to call him, which is his only request. Do not tell him it will definitely arrive today by reading tracking."
+  },
+  {
+    "root_tweet_id": "2111100",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that charges were raised for replacement items the customer never received, against an assurance that he would not be charged. Do not offer to explore options before the charges are checked."
+  },
+  {
+    "root_tweet_id": "258835",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer asked for a phone number, was given 0800 279 7234 and confirms the parcel arrived. Do not reopen the case or claim further action is pending."
+  },
+  {
+    "root_tweet_id": "612716",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that a third party changed the account email, leaving the customer locked out, and recover the account. Do not send help routes that require signing in to the account she cannot access."
+  },
+  {
+    "root_tweet_id": "1553211",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why no deliveries have reached this customer since 13 October, beyond issuing refunds, and what the two supervisors' investigation has found. Do not ask again what customer service told him, which he has already described."
+  },
+  {
+    "root_tweet_id": "58747",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the 18:28 delivery attempt was genuine and arrange the management callback the customer asked for at a stated time. Do not push him to call when he has explained why he will not."
+  },
+  {
+    "root_tweet_id": "339918",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the pattern behind five consecutive orders missing their promised dates and what remedy applies. Do not ask him to identify a carrier trend after a 56-minute wait for a supervisor produced nothing."
+  },
+  {
+    "root_tweet_id": "1379037",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the pre-order did not arrive on the release date and what delivery date now applies. Do not treat a pre-order as an ordinary delayed shipment without checking the release-date guarantee."
+  },
+  {
+    "root_tweet_id": "2665842",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether a console remains allocated to this pre-order placed minutes after launch, and what a supervisor actually committed to. Do not repeat the promise Support has since contradicted."
+  },
+  {
+    "root_tweet_id": "91335",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why two consecutive orders sat in 'preparing for shipment' and were then cancelled, including the partial cancellation after she agreed to split the shipment. Do not ask her to call back to reach a supervisor."
+  },
+  {
+    "root_tweet_id": "2467630",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer states a supervisor resolved the underlying issue; what remains is whether GBP 5 goodwill is proportionate. Do not reopen the case or infer what the original problem was."
+  },
+  {
+    "root_tweet_id": "2280812",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish an alternative verification route for a customer whose two-step codes go to a cancelled number. Do not send help pages that require signing in to the account he cannot access."
+  },
+  {
+    "root_tweet_id": "1159300",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the position of the hacked account, noting that the only account she can access is not hers, and make the specialist call promised seven days ago. Do not send the same account-services email again."
+  },
+  {
+    "root_tweet_id": "1605622",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the pay-per-view purchase completed and why it will not load on the Fire Stick app, and check for a duplicate charge. Do not confirm the event was delivered when the customer has already missed part of it."
+  },
+  {
+    "root_tweet_id": "2184549",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "UNKNOWN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the account security concern actually is by calling the customer, as requested. Do not classify it as a compromise or dismiss it before hearing the detail."
+  },
+  {
+    "root_tweet_id": "554602",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the Prime Now order was marked as a failed delivery for absence and why the app shows no refund due. Do not tell him to select any order when Prime Now orders do not appear in that list."
+  },
+  {
+    "root_tweet_id": "1342518",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the order shows delivery today while the carrier has only electronic pre-advice. Do not confirm today's delivery on the strength of the Amazon-side date."
+  },
+  {
+    "root_tweet_id": "2933528",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms she collected everything from the pickup point; the remaining point is that no delivery notice was left. Do not reopen the order."
+  },
+  {
+    "root_tweet_id": "1058037",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Confirm the official name of the Amazon app store in Spain. Nothing account-specific needs to be established."
+  },
+  {
+    "root_tweet_id": "2200679",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the title is available on Prime Video in the customer's region and whether the TV device is set up. Do not assume it is a device configuration problem before checking availability."
+  },
+  {
+    "root_tweet_id": "975746",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why a GBP 554 charge stands on an order the customer says was wrong and never cancelled, while redelivery is still being attempted. Do not treat the GBP 5 offer as a resolution."
+  },
+  {
+    "root_tweet_id": "594575",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer has identified that skill linking fails in the Android Alexa app for skills requiring login and works on desktop. Log the defect; do not ask him to repeat troubleshooting he has already completed."
+  },
+  {
+    "root_tweet_id": "2636844",
+    "primary_intent": "Item_Damaged_Or_Defective",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms the replacement arrived; the open points are a pre-order scanned out but delivered to a bin half a mile away and returned damaged. Do not reopen the delivery as outstanding."
+  },
+  {
+    "root_tweet_id": "1206850",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether any post-purchase price adjustment applies to the Kindle Paperwhite, given a free return and repurchase would achieve the same result. Do not state a refund of the difference is impossible without checking current policy."
+  },
+  {
+    "root_tweet_id": "2856564",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "Confirm that Prime Video is included in the Prime subscription with no additional charge beyond the annual fee. Do not quote account-specific billing without access."
+  },
+  {
+    "root_tweet_id": "2266823",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the search-across-wish-lists feature has been removed or broken on the web and mobile apps, given it now fails in more than one browser. Do not treat it as an account-specific fault."
+  },
+  {
+    "root_tweet_id": "490612",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "The customer has already cancelled the undispatched advent calendar; establish whether the refund has been issued. Do not assume the cancellation closes the matter without confirming the money back."
+  },
+  {
+    "root_tweet_id": "2663187",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "The item is past its 11th delivery estimate and is seller-fulfilled, so the correct route is the seller contact form, which the customer has now used. Do not promise an Amazon-side resolution on a marketplace order."
+  },
+  {
+    "root_tweet_id": "2299308",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the parcel went to a different house on the street despite a correct address on the account, and what recovery or refund applies. Do not ask the customer to retrieve it himself."
+  },
+  {
+    "root_tweet_id": "511710",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the duplicate order was ever cancelled after the locker address change made by phone. Do not treat the address change as confirming the cancellation."
+  },
+  {
+    "root_tweet_id": "2305792",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the USD 99 Prime charge was expected on this account and whether it can be refunded and the membership cancelled. Do not confirm or deny eligibility before checking the account."
+  },
+  {
+    "root_tweet_id": "1375301",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why an order with paid one-day shipping shows a Monday date and whether the shipping fee should be refunded. Do not restate the transit-time definition without checking the order's dates."
+  },
+  {
+    "root_tweet_id": "2347790",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why orders are shipping after the dates given at confirmation and why an item went out of stock after being pending. Do not ask which carrier is involved when the delay occurs before pickup."
+  },
+  {
+    "root_tweet_id": "2450592",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that a saved low-locker accessibility preference was not applied and that the customer could not reach her parcel unaided. Do not ask again for details she says she has already submitted."
+  },
+  {
+    "root_tweet_id": "827938",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why no delivery attempt was made on the promised Wednesday and the order's current position three days past the window. Do not tell him his details are missing as the only reply to a delivery question."
+  },
+  {
+    "root_tweet_id": "608119",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the two delivery attempts recorded outside the promised 9am slot were genuine, and arrange a workable slot or pickup. Do not refer him to the carrier when Amazon set the promise and recorded the attempts."
+  },
+  {
+    "root_tweet_id": "421532",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the position of the shoes ordered 24 September against a 3 October estimate, and of the second outstanding item. Do not answer with privacy warnings in place of a status."
+  },
+  {
+    "root_tweet_id": "1824718",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish an executable return method after more than ten couriers, including India Post, refused the parcel, or authorise a refund or replacement without the return. Do not suggest carriers he has already tried."
+  },
+  {
+    "root_tweet_id": "361023",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the item on this INR 607 order was Prime-eligible and whether the INR 90 delivery fee was correctly applied. Do not state the general eligibility rule as if it confirmed this charge."
+  },
+  {
+    "root_tweet_id": "351666",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the refund position on the order the customer no longer wants and whether her email reply was received. Do not direct her to reply to a thread she says she has already answered."
+  },
+  {
+    "root_tweet_id": "503396",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the account was closed and the Black Friday order cancelled, and whether the original price can be honoured now the account has been reinstated. Do not treat the reinstatement email as resolving the cancelled orders."
+  },
+  {
+    "root_tweet_id": "825510",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why NFL content specifically fails on the Fire Stick and stutters on iPad while other Prime Video content plays normally on the same network. Do not re-send troubleshooting steps he has already completed."
+  },
+  {
+    "root_tweet_id": "1265748",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish how the gift was delivered and signed for at an address where the recipient had been away for five days, and confirm the refund. Do not rule out goodwill before the order has been reviewed."
+  },
+  {
+    "root_tweet_id": "2807314",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish why the Prime order was not delivered when map view showed the driver on the customer's street, and give a firm revised date. Do not attribute it to unforeseen circumstances without checking the route scan."
+  },
+  {
+    "root_tweet_id": "1095874",
+    "primary_intent": "Item_Damaged_Or_Defective",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish what the leaking detergent damaged in the parcel and arrange refund or replacement without an item-by-item list. Do not redirect packaging feedback in place of resolving the damage."
+  },
+  {
+    "root_tweet_id": "2380854",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether Prime Video HD is available for the titles he checked in Canada, and review the call in which he was refused a supervisor and disconnected. Do not send him back through the same phone route without a named owner."
+  },
+  {
+    "root_tweet_id": "420626",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the refund position on the order Amazon cancelled, including amount, method and date. Do not explain the cancellation reason in place of the refund status."
+  },
+  {
+    "root_tweet_id": "1745022",
+    "primary_intent": "Package_Missing_Or_Stolen",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish that the signature on the 25 October proof of delivery is not the customer's and re-examine the A-to-Z claim denied on that basis. Do not ask her to appeal without addressing the disputed signature."
+  },
+  {
+    "root_tweet_id": "2310501",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Explain how to cancel the converted Prime membership and that a full refund applies if no benefits were used after conversion. Do not state that the refund has been issued."
+  },
+  {
+    "root_tweet_id": "2901032",
+    "primary_intent": "Account_Compromised",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFETY_CONCERN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the identity-theft and fraud activity on the account, secure it, and use the phone number he has already supplied by direct message. Do not send the same phone link a third time or ask basic account questions a week in."
+  },
+  {
+    "root_tweet_id": "2673420",
+    "primary_intent": "Delivery_Delayed",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer states the order was already sorted; the open point is two missed guaranteed deliveries to Amazon Lockers in six months and what that means for his Prime membership. Do not ask which carrier handles locker deliveries."
+  },
+  {
+    "root_tweet_id": "993192",
+    "primary_intent": "Digital_Content_Or_Streaming",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the paid digital subscription content was actually delivered to the customer's library and what period is affected. Do not suggest a network check for content that was never delivered to the account."
+  },
+  {
+    "root_tweet_id": "467436",
+    "primary_intent": "Refund_Or_Return_Status",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "DECREASING",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "RESOLVED",
+    "must_cover_facts": "The customer confirms the refund issue was sorted once a working phone number was provided; the IVR's inability to locate his order is the remaining defect to log. Do not reopen the refund."
+  },
+  {
+    "root_tweet_id": "1678008",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish when the Unlimited subscription started, whether any confirmation email was sent, and what refund applies for the months since January. Do not ask again what customer service offered when she has said a supervisor already refused."
+  },
+  {
+    "root_tweet_id": "2291244",
+    "primary_intent": "Billing_Or_Prime_Charge",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "DEEP_ANALYSIS",
+    "frustration_trajectory": "STABLE",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether the GBP 7.99 charge is refundable given the membership was cancelled and, per the customer, never used. Do not tell her to check a confirmation email that she says does not mention refund eligibility."
+  },
+  {
+    "root_tweet_id": "205033",
+    "primary_intent": "Device_Technical_Issue",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "AUTO_HANDLE",
+    "frustration_trajectory": "UNKNOWN",
+    "safety": "SAFE",
+    "capability": "AVAILABLE",
+    "resolution": "UNKNOWN",
+    "must_cover_facts": "Confirm whether the customer's LG Android handset supports Prime Video streaming and what the minimum requirements are. Do not assert a device is unsupported because it is absent from the published list."
+  },
+  {
+    "root_tweet_id": "407435",
+    "primary_intent": "Order_Cancellation",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "UNKNOWN",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish whether Amazon's own fraud review cancelled the order, removed the stored cards and changed the password, or whether a third party did, and confirm whether the email he received was genuine. Do not tell him to simply reorder before that is settled."
+  },
+  {
+    "root_tweet_id": "1246851",
+    "primary_intent": "UNKNOWN",
+    "secondary_intents": [
+      "- **Multi-Intent:** No"
+    ],
+    "is_multi_intent": false,
+    "trust_tier": "HUMAN_ESCALATION",
+    "frustration_trajectory": "INCREASING",
+    "safety": "SAFE",
+    "capability": "UNKNOWN",
+    "resolution": "UNRESOLVED",
+    "must_cover_facts": "Establish the repeated pattern of parcels being left concealed at this address and set a delivery instruction, then arrange the manager call requested. Do not ask for the details again through a form."
+  }
+]

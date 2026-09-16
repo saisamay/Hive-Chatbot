@@ -1,0 +1,4057 @@
+[
+  {
+    "root_tweet_id": "1547241",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2103314",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Conversation is extremely short/contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1883241",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1771697",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "91489",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "29568",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1209072",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "963279",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2452534",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "139015",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2609915",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "683055",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "351451",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2439683",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2385234",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "280927",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "985497",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "524955",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "843558",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1876810",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "286261",
+    "proposed_label": {
+      "primary_intent": "Digital_Content_Or_Streaming",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the digital content or streaming and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Digital_Content_Or_Streaming.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "792731",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2428181",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "1002905",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "274039",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "495940",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "350493",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Device_Technical_Issue and Delivery_Delayed"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "765456",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2927121",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "679041",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2531044",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1955258",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2946739",
+    "proposed_label": {
+      "primary_intent": "Account_Compromised",
+      "additional_intents": [
+        "Fraud_Or_Fake_Product"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the account compromised and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Account_Compromised.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Account_Compromised and Fraud_Or_Fake_Product",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2327583",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2279037",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "695154",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "737923",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Item_Damaged_Or_Defective"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1466084",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2891944",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2285056",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2758141",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Order_Cancellation"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Order_Cancellation",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2280833",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "142056",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "497286",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1657861",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "107246",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2867132",
+    "proposed_label": {
+      "primary_intent": "Item_Damaged_Or_Defective",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the item damaged or defective and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Item_Damaged_Or_Defective.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "252847",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1324511",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2516963",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "40393",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2345647",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "668470",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "764145",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "89200",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2882204",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Billing_Or_Prime_Charge"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Billing_Or_Prime_Charge",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "1346593",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "714740",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Delivery_Delayed"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Delivery_Delayed",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2816374",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "74690",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2531296",
+    "proposed_label": {
+      "primary_intent": "Billing_Or_Prime_Charge",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the billing or prime charge and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Billing_Or_Prime_Charge.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "780349",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2375335",
+    "proposed_label": {
+      "primary_intent": "Package_Missing_Or_Stolen",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the package missing or stolen and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Package_Missing_Or_Stolen.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "490636",
+    "proposed_label": {
+      "primary_intent": "Billing_Or_Prime_Charge",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the billing or prime charge and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Billing_Or_Prime_Charge.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2741897",
+    "proposed_label": {
+      "primary_intent": "Fraud_Or_Fake_Product",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the fraud or fake product and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Fraud_Or_Fake_Product.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2581874",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1217529",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2611634",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "920507",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "384855",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "25881",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "970244",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2283967",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "924470",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1198287",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2863408",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "292871",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1223092",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "27343",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1125087",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Fraud_Or_Fake_Product"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Fraud_Or_Fake_Product",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2709915",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2557228",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1318240",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2979573",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "689505",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2192345",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2616365",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2147951",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "155137",
+    "proposed_label": {
+      "primary_intent": "Digital_Content_Or_Streaming",
+      "additional_intents": [
+        "Delivery_Delayed"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the digital content or streaming and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Digital_Content_Or_Streaming.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "587952",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "675156",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "437977",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1426212",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2393509",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "349375",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "783276",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "786538",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "834789",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "461255",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Fraud_Or_Fake_Product"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Fraud_Or_Fake_Product",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "160263",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "857799",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2317300",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1050421",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "463380",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1057970",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2386392",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2454040",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1054032",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "525549",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "1649120",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "473221",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "156692",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2723950",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "870040",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2967717",
+    "proposed_label": {
+      "primary_intent": "Package_Missing_Or_Stolen",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the package missing or stolen and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Package_Missing_Or_Stolen.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1243362",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2960545",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "291354",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1745590",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1768971",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1033187",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "180543",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "572416",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Package_Missing_Or_Stolen"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Package_Missing_Or_Stolen",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2616439",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Fraud_Or_Fake_Product",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "555379",
+    "proposed_label": {
+      "primary_intent": "Item_Damaged_Or_Defective",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the item damaged or defective and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Item_Damaged_Or_Defective.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2290918",
+    "proposed_label": {
+      "primary_intent": "Account_Compromised",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the account compromised and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Account_Compromised.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2619607",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2170783",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Item_Damaged_Or_Defective"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Item_Damaged_Or_Defective",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "349628",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1262582",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2107249",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Account_Compromised"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Account_Compromised",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "713769",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2372318",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Item_Damaged_Or_Defective"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Item_Damaged_Or_Defective",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "456527",
+    "proposed_label": {
+      "primary_intent": "Item_Damaged_Or_Defective",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the item damaged or defective and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Item_Damaged_Or_Defective.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "325456",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2032925",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "641860",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "674284",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "789634",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1146952",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "322599",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "387553",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2230629",
+    "proposed_label": {
+      "primary_intent": "Package_Missing_Or_Stolen",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the package missing or stolen and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Package_Missing_Or_Stolen.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "982313",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "518823",
+    "proposed_label": {
+      "primary_intent": "Digital_Content_Or_Streaming",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the digital content or streaming and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Digital_Content_Or_Streaming.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1635691",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2702088",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Account_Compromised"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Refund_Or_Return_Status and Account_Compromised",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2302274",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2460735",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1886074",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1130558",
+    "proposed_label": {
+      "primary_intent": "Account_Compromised",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the account compromised and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Account_Compromised.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2303911",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [
+        "Package_Missing_Or_Stolen"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Package_Missing_Or_Stolen",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2521817",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2406950",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "639485",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2721780",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "744184",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "585742",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2341576",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "142028",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2946839",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "HIGH",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1602572",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1739096",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "844165",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "816337",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2161901",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2192573",
+    "proposed_label": {
+      "primary_intent": "Device_Technical_Issue",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the device technical issue and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Device_Technical_Issue.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "62184",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1082349",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2686034",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1441388",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1380578",
+    "proposed_label": {
+      "primary_intent": "Billing_Or_Prime_Charge",
+      "additional_intents": [
+        "Device_Technical_Issue"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the billing or prime charge and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Billing_Or_Prime_Charge.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Billing_Or_Prime_Charge and Device_Technical_Issue",
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "748733",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2922563",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "1461541",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "274467",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [
+        "Package_Missing_Or_Stolen"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "HIGH",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Multi-intent is unclear (heuristic detected multiple issues)"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1806467",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2911610",
+    "proposed_label": {
+      "primary_intent": "Package_Missing_Or_Stolen",
+      "additional_intents": [
+        "Order_Cancellation"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the package missing or stolen and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Package_Missing_Or_Stolen.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Package_Missing_Or_Stolen and Order_Cancellation",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1588794",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2858083",
+    "proposed_label": {
+      "primary_intent": "Order_Cancellation",
+      "additional_intents": [
+        "Refund_Or_Return_Status"
+      ],
+      "is_multi_intent": true,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the order cancellation and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Order_Cancellation.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Order_Cancellation and Refund_Or_Return_Status",
+      "Multi-intent is unclear (heuristic detected multiple issues)",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1249692",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "432302",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "351143",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1445376",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1656715",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1073210",
+    "proposed_label": {
+      "primary_intent": "Digital_Content_Or_Streaming",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the digital content or streaming and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Digital_Content_Or_Streaming.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "1257766",
+    "proposed_label": {
+      "primary_intent": "Refund_Or_Return_Status",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "AUTO_HANDLE",
+      "frustration_trajectory": "INCREASING",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the refund or return status and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Refund_Or_Return_Status.",
+    "confidence": "MEDIUM",
+    "suspicious_borderline": false,
+    "needs_human_review": "NO",
+    "review_reasons": [],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "2199109",
+    "proposed_label": {
+      "primary_intent": "Delivery_Delayed",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "HUMAN_ESCALATION",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFETY_CONCERN",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the delivery delayed and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "Customer text contains keywords strongly associated with Delivery_Delayed.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Two intents are nearly equally plausible: Delivery_Delayed and Order_Cancellation",
+      "Explicit human request plus another unresolved issue",
+      "Potential high-severity escalation / safety concern"
+    ],
+    "is_audit_sample": false
+  },
+  {
+    "root_tweet_id": "787510",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2585494",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": true
+  },
+  {
+    "root_tweet_id": "2290288",
+    "proposed_label": {
+      "primary_intent": "UNKNOWN",
+      "additional_intents": [],
+      "is_multi_intent": false,
+      "trust_tier": "DEEP_ANALYSIS",
+      "frustration_trajectory": "STABLE",
+      "safety": "SAFE",
+      "capability": "UNKNOWN",
+      "must_cover_facts": "Verify the status of the unknown and provide appropriate resolution steps."
+    },
+    "evidence_reasoning": "No clear keywords matched any of the 10 core intents.",
+    "confidence": "LOW",
+    "suspicious_borderline": true,
+    "needs_human_review": "YES",
+    "review_reasons": [
+      "Issue is genuinely unclear or contextless"
+    ],
+    "is_audit_sample": false
+  }
+]
