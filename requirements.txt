@@ -6,3 +6,14 @@ spacy==3.7.4
 langdetect==1.0.9
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl
 langdetect==1.0.9
+gunicorn
+flask
+openai
+google-genai
+faiss-cpu
+sentence-transformers
+python-dotenv
+pydantic
+joblib==1.6.0
+numpy==1.26.4
+scikit-learn==1.9.1

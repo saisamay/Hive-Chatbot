@@ -44,6 +44,10 @@ if has_api_key:
 def index():
     return send_from_directory(app.static_folder, "index.html")
 
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok"}), 200
+
 @app.route("/<path:path>")
 def static_files(path):
     return send_from_directory(app.static_folder, path)
@@ -187,4 +191,5 @@ def chat():
     })
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=False)
